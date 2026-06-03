@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Zhao Jiabao profile visual</title>
+  <desc id="desc">A clean personal-site visual with Chengdu skyline, mountain contours, and the initials ZJB.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#e9f4ff"/>
+      <stop offset="0.52" stop-color="#f4fbf7"/>
+      <stop offset="1" stop-color="#fff3df"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffb84d"/>
+      <stop offset="1" stop-color="#ef6f4f"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#16313f" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="960" height="640" rx="42" fill="url(#sky)"/>
+  <circle cx="746" cy="134" r="62" fill="url(#sun)" opacity="0.92"/>
+  <path d="M58 384 C184 276 279 312 402 230 C515 154 633 228 729 174 C815 126 878 158 928 128 L928 640 L58 640 Z" fill="#d6ebe2"/>
+  <path d="M58 438 C183 354 305 387 427 315 C550 242 650 313 772 248 C833 216 885 222 928 200 L928 640 L58 640 Z" fill="#b7d7cc"/>
+  <path d="M0 489 C110 423 202 449 316 389 C430 329 558 391 664 331 C790 260 878 302 960 252 L960 640 L0 640 Z" fill="#8fbfaf"/>
+  <g opacity="0.45" fill="none" stroke="#fff8ed" stroke-width="2">
+    <path d="M98 401 C202 330 292 354 402 284 C522 208 622 273 728 216 C818 168 875 183 922 153"/>
+    <path d="M72 462 C180 396 283 407 394 348 C502 291 626 337 740 282 C822 242 878 242 930 218"/>
+    <path d="M34 528 C157 464 244 486 369 431 C489 378 584 423 704 368 C815 317 890 326 960 288"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="90" y="226" width="364" height="272" rx="30" fill="#ffffff" opacity="0.92"/>
+    <text x="132" y="334" fill="#17313a" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="700" letter-spacing="0">ZJB</text>
+    <text x="137" y="383" fill="#42616b" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="600">Zhao Jiabao</text>
+    <text x="137" y="428" fill="#5d747c" font-family="Arial, Helvetica, sans-serif" font-size="20">Chengdu Univ. of Technology</text>
+  </g>
+  <g fill="#25424b">
+    <rect x="567" y="321" width="33" height="167" rx="4"/>
+    <rect x="619" y="281" width="48" height="207" rx="5"/>
+    <rect x="691" y="337" width="34" height="151" rx="4"/>
+    <rect x="748" y="252" width="56" height="236" rx="6"/>
+    <rect x="827" y="355" width="32" height="133" rx="4"/>
+    <path d="M748 252 L776 199 L804 252 Z"/>
+  </g>
+  <g fill="#ffffff" opacity="0.52">
+    <rect x="631" y="310" width="10" height="22" rx="2"/>
+    <rect x="646" y="310" width="10" height="22" rx="2"/>
+    <rect x="631" y="350" width="10" height="22" rx="2"/>
+    <rect x="646" y="350" width="10" height="22" rx="2"/>
+    <rect x="763" y="294" width="11" height="26" rx="2"/>
+    <rect x="784" y="294" width="11" height="26" rx="2"/>
+    <rect x="763" y="340" width="11" height="26" rx="2"/>
+    <rect x="784" y="340" width="11" height="26" rx="2"/>
+  </g>
+</svg>

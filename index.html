@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="赵家宝的个人网站，展示研究经历、项目方向与联系方式。">
+    <title>赵家宝 | 个人主页</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="主导航">
+      <a class="brand" href="#top" aria-label="回到首页">
+        <span class="brand-mark">赵</span>
+        <span>赵家宝</span>
+      </a>
+      <nav class="nav-links" aria-label="页面章节">
+        <a href="#about">关于</a>
+        <a href="#focus">方向</a>
+        <a href="#friends">朋友</a>
+        <a href="#projects">项目</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">成都理工大学 · 研二</p>
+          <h1 id="hero-title">赵家宝</h1>
+          <p class="hero-lede">
+            这里会慢慢整理我的学习经历、研究兴趣、项目记录和一些阶段性思考。
+          </p>
+          <div class="hero-actions" aria-label="主要操作">
+            <a class="button button-primary" href="#projects">查看项目</a>
+            <a class="button button-ghost" href="#friends">朋友墙</a>
+            <a class="button button-ghost" href="#contact">联系我</a>
+          </div>
+        </div>
+        <figure class="hero-visual">
+          <img src="assets/profile-mark.svg" alt="赵家宝个人主页视觉图，包含 ZJB 字母、山地轮廓与城市剪影">
+        </figure>
+      </section>
+
+      <section class="section intro-grid" id="about" aria-labelledby="about-title">
+        <div>
+          <p class="section-kicker">About</p>
+          <h2 id="about-title">关于我</h2>
+        </div>
+        <div class="intro-text">
+          <p>
+            我是赵家宝，目前是成都理工大学研二学生。这个网站会作为我的个人名片，也会逐步沉淀课程学习、研究训练、项目实践和作品展示。
+          </p>
+          <p>
+            目前内容先保留为简洁版本，方便后续根据你的真实方向补充：论文、竞赛、实习、开源项目、摄影作品或个人博客都可以自然扩展进来。
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="focus" aria-labelledby="focus-title">
+        <div class="section-heading">
+          <p class="section-kicker">Focus</p>
+          <h2 id="focus-title">可以展示的方向</h2>
+        </div>
+        <div class="focus-grid">
+          <article class="info-card">
+            <span class="card-index">01</span>
+            <h3>研究与学习</h3>
+            <p>放置研究方向、课程积累、论文阅读笔记或阶段性成果。</p>
+          </article>
+          <article class="info-card">
+            <span class="card-index">02</span>
+            <h3>项目实践</h3>
+            <p>展示做过的网站、系统、数据分析、工程实践或团队项目。</p>
+          </article>
+          <article class="info-card">
+            <span class="card-index">03</span>
+            <h3>个人记录</h3>
+            <p>沉淀技术文章、生活观察、读书笔记和未来简历入口。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section friends-section" id="friends" aria-labelledby="friends-title">
+        <div class="section-heading">
+          <p class="section-kicker">Friends</p>
+          <h2 id="friends-title">朋友墙</h2>
+          <p class="section-copy">
+            按相识阶段整理朋友名单。点朋友名字可以打开自我评价面板，内容会保存在当前浏览器中。
+          </p>
+        </div>
+        <div class="friends-grid">
+          <article class="friend-group">
+            <div class="friend-group-header">
+              <span class="friend-stage">小学</span>
+              <span class="friend-count">待补充</span>
+            </div>
+            <p class="friend-empty">小学阶段的朋友名单还可以继续补上。</p>
+          </article>
+          <article class="friend-group">
+            <div class="friend-group-header">
+              <span class="friend-stage">中学</span>
+              <span class="friend-count">3 位</span>
+            </div>
+            <div class="friend-list" aria-label="中学朋友">
+              <button class="friend-button" type="button" data-stage="中学" data-friend="王琪方">
+                <span class="friend-avatar avatar-green">王</span>
+                <span class="friend-name">王琪方</span>
+              </button>
+              <button class="friend-button" type="button" data-stage="中学" data-friend="任玉峰">
+                <span class="friend-avatar avatar-amber">任</span>
+                <span class="friend-name">任玉峰</span>
+              </button>
+              <button class="friend-button" type="button" data-stage="中学" data-friend="王森涛">
+                <span class="friend-avatar avatar-blue">王</span>
+                <span class="friend-name">王森涛</span>
+              </button>
+            </div>
+          </article>
+          <article class="friend-group">
+            <div class="friend-group-header">
+              <span class="friend-stage">大学</span>
+              <span class="friend-count">2 位</span>
+            </div>
+            <div class="friend-list" aria-label="大学朋友">
+              <button class="friend-button" type="button" data-stage="大学" data-friend="叶华">
+                <span class="friend-avatar avatar-mint">叶</span>
+                <span class="friend-name">叶华</span>
+              </button>
+              <button class="friend-button" type="button" data-stage="大学" data-friend="李伦坤">
+                <span class="friend-avatar avatar-ink">李</span>
+                <span class="friend-name">李伦坤</span>
+              </button>
+            </div>
+          </article>
+          <article class="friend-group">
+            <div class="friend-group-header">
+              <span class="friend-stage">研究生阶段</span>
+              <span class="friend-count">2 位</span>
+            </div>
+            <div class="friend-list" aria-label="研究生阶段朋友">
+              <button class="friend-button" type="button" data-stage="研究生阶段" data-friend="彭韵越">
+                <span class="friend-avatar avatar-coral">彭</span>
+                <span class="friend-name">彭韵越</span>
+              </button>
+              <button class="friend-button" type="button" data-stage="研究生阶段" data-friend="刘郅彤">
+                <span class="friend-avatar avatar-violet">刘</span>
+                <span class="friend-name">刘郅彤</span>
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="section-kicker">Projects</p>
+          <h2 id="projects-title">项目与作品</h2>
+        </div>
+        <div class="project-list">
+          <article class="project-row">
+            <div>
+              <p class="project-meta">Personal Website</p>
+              <h3>个人主页搭建</h3>
+            </div>
+            <p>用于展示个人介绍、研究方向、项目经历与联系方式。后续可以绑定域名并部署到宝塔面板。</p>
+          </article>
+          <article class="project-row">
+            <div>
+              <p class="project-meta">Research Notes</p>
+              <h3>研究笔记与阶段成果</h3>
+            </div>
+            <p>预留给论文阅读、实验记录、模型复现或课题相关内容。</p>
+          </article>
+          <article class="project-row">
+            <div>
+              <p class="project-meta">Portfolio</p>
+              <h3>作品集入口</h3>
+            </div>
+            <p>后续可以补充 GitHub、演示链接、截图、代码仓库和项目复盘。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2 id="contact-title">联系我</h2>
+          <p class="contact-copy">
+            欢迎通过邮箱、GitHub、微信或其他方式联系。这里先留出位置，等你确定公开信息后再补上。
+          </p>
+        </div>
+        <div class="contact-panel" aria-label="联系信息占位">
+          <a href="mailto:your-email@example.com">your-email@example.com</a>
+          <span>GitHub / Gitee / 微信：待补充</span>
+          <span>所在地：中国 · 成都</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> 赵家宝</span>
+      <a href="#top">回到顶部</a>
+    </footer>
+
+    <dialog class="friend-dialog" id="friend-dialog" aria-labelledby="friend-dialog-title">
+      <form method="dialog" class="friend-dialog-card">
+        <div class="friend-dialog-header">
+          <div>
+            <p class="section-kicker" id="friend-dialog-stage">朋友</p>
+            <h2 id="friend-dialog-title">自我评价</h2>
+          </div>
+          <button class="icon-button" type="button" id="friend-dialog-close" aria-label="关闭">×</button>
+        </div>
+        <label class="friend-field">
+          <span>写下你的自我评价</span>
+          <textarea id="friend-evaluation" rows="7" placeholder="可以写性格、近况、想对赵家宝说的话，或者留下一句只有你们懂的话。"></textarea>
+        </label>
+        <p class="friend-note" id="friend-save-status">内容保存在当前浏览器本地。</p>
+        <div class="friend-dialog-actions">
+          <button class="button button-ghost" type="button" id="friend-clear">清空</button>
+          <button class="button button-primary" type="button" id="friend-save">保存评价</button>
+        </div>
+      </form>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>

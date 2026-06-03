@@ -1,0 +1,8 @@
+bt_inspect.py
+server_check.py
+setup_nginx.py
+deploy_site.py
+
+*.log
+.DS_Store
+Thumbs.db
