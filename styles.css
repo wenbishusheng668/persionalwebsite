@@ -371,6 +371,52 @@ h3 {
   font-weight: 900;
 }
 
+.list-section {
+  background: var(--white);
+}
+
+.wishlist-section {
+  background: #f9fbf1;
+}
+
+.course-section {
+  background: #f6fbff;
+}
+
+.life-list {
+  display: grid;
+  gap: 14px;
+  max-width: 900px;
+}
+
+.life-item {
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr);
+  gap: 22px;
+  align-items: start;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 12px 34px rgba(23, 49, 58, 0.06);
+}
+
+.life-marker {
+  display: grid;
+  width: 52px;
+  height: 52px;
+  place-items: center;
+  border-radius: 50%;
+  color: var(--white);
+  background: var(--green);
+  font-weight: 900;
+}
+
+.life-item p {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
 .projects {
   background: var(--blue-soft);
 }
@@ -526,6 +572,7 @@ h3 {
 
   .nav-links {
     width: 100%;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
 
@@ -556,6 +603,7 @@ h3 {
 @media (max-width: 520px) {
   .nav-links {
     gap: 12px;
+    justify-content: flex-start;
     font-size: 14px;
   }
 
@@ -576,6 +624,10 @@ h3 {
   .hero-visual img {
     min-height: 240px;
     border-radius: 12px;
+  }
+
+  .life-item {
+    grid-template-columns: 1fr;
   }
 
   .friends-grid {
